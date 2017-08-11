@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="mystyle.css"> 
+           <style>
+            img{
+    width: 1350px;
+    height: 300px;
+    background-color: yellow;
+    box-shadow: 10px 10px 5px #888888;
+}
+    </style>
+    </head>
+    <body>
+        <img src="money.jpg" align="left" width="1350" height="300">
+    
+    <hr>
+    <center><dt><h2><i>DEBIT CARD</i></h2></dt></center>
+    <hr>
+    <center>
+    
+<form action="" method="post">   
+        <div>
+            <p>
+            <label for="name">Card Name:</label>
+            <input id="name" name="name" required value="" required  pattern="[A-Z-a-z]+\s[A-Z-a-z]+" aria-required="true" aria-describedby="name-format">
+            <span id="name-format" class="help"></span>
+            </p>
+        </div>
+        <div>
+            <p>
+            <label for="name">Name of card holder:</label>
+            <input id="name" name="name" required value="" required  pattern="[A-Z-a-z]+\s[A-Z-a-z]+" aria-required="true" aria-describedby="name-format">
+            <span id="name-format" class="help"></span>
+            </p>
+        </div>
+        <div>
+            <p>
+            <label for="number">CVV number:</label>
+            <input type="number" max="3">
+            </p>
+        </div>
+        <div>
+            <p>
+            <label for="number">Card Number:</label>
+            <input type="tel" pattern="^\d{4}-\d{3}-\d{4}$" >
+            </p>
+        </div>
+    <div>
+        <p>
+            <label for="date">Date:</label>
+        <input type="text" pattern="\d{1,2}/\d{1,2}/\d{4}">
+        </p>
+    </div>
+        
+        <div class="submit">
+            <input type="submit" value="Submit">
+        </div>
+</form>
+</h3></p>
+
+
+
+</center>
+    </body>
+</html>

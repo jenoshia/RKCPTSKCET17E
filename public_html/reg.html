@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="mystyle.css"> 
+    <center>
+        
+    </center>
+    </head>
+    <body background="kk.gif">
+    <center> <h1 style="color: plum" font face="comic sans ms"><b>REGISTER</b></h1></center>
+        <div class="relative">
+        <form action="" method="post">   
+            <center>
+        <div>
+           
+            <p>
+            <label for="name">Name:</label>
+            <input id="name" name="name" required value="" required  pattern="[A-Z-a-z]+\s[A-Z-a-z]+" aria-required="true" aria-describedby="name-format">
+            
+            </p>
+        </div>
+        <div>
+            <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="" pattern="[^ @]*@[^ @]*" required aria-required="true">
+            </p>
+        </div>
+        <div>
+            <p>
+            <label for="website">Website:</label>
+            <input type="url" id="website" name="website" value="">
+            </p>
+        </div>
+        <div>
+            <p>
+            <label for="phonenum">Phone Number:</label>
+            <input type="tel" pattern="^\d{4}-\d{3}-\d{4}$" >
+            </p>
+        </div>
+        <div>
+        <p>Password: <input id="field_pwd1" title="Password must contain at least 6 characters, including UPPER/lowercase and numbers." type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="pwd1"></p>
+        </div>
+        <div>
+        <p>Confirm Password: <input id="field_pwd2" title="Please enter the same Password as above." type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="pwd2"></p>
+        </div>
+
+         
+             <p><a href="details.html"><button type="button"><b><i>SUBMIT</i></b></button></a></p><br><br><br><br>
+</center>
+        </div>
+    
+</form>
+    </body>
+</html>

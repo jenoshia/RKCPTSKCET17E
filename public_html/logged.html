@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>logged in</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="mystyle.css"> 
+    </head>
+    <body background="kk.gif">
+        <div id="grad1" style="text-align:center;margin:auto;color:#888888;font-size:20px;font-weight:bold">
+        <br>
+        <br>
+        <br>
+        <br>
+    <center>
+        <canvas id="myCanvas" width="350" height="100" style="border:1px solid black;">
+            your browser does not support the html5 canvas tag</canvas>
+            <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        
+        ctx.font="30px Verdana";
+        var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
+        gradient.addColorStop("0", "black");
+         gradient.addColorStop("0.5", "white");
+         gradient.addColorStop("1", "black")
+         ctx.fillStyle = gradient;
+         ctx.fillText("CONGRATULATIONS!!!",10,50);
+         
+         </script>
+    </center>
+        <h1 style="color: mediumorchid;text-align: center;font-size: 200%;"><b>YOU HAVE LOGGED IN SUCCESSFULLY!!!</b></h1>
+        <br><br>
+    <center>
+        <a href="details.html"><h3><i>To place your order click here</i></h3></a>
+    </center>
+        </div>
+         <p><a href="home.html"><button type="button"><b><i>GO TO HOME</i></b></button></a></p>;
+    </body>
+</html>

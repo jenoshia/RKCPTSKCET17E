@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="mystyle.css"> 
+        <style>
+            img{
+    width: 1350px;
+    height: 300px;
+    background-color: yellow;
+    box-shadow: 10px 10px 5px #888888;
+}
+    </style>
+    </head>
+    <body>
+        
+        <img src="paypal.png" align="left" width="1350" height="300">
+      
+    <hr>
+    <center><dt><h2><i><u>CREDIT CARD</u></i></h2></dt></center>
+    <hr>
+    <center>
+        <form name="form1" method="post"  action="">
+        <dd><h3><label>Select bank:<select><option value="axis bank">Axis bank</option>
+                        <option value="soi">state bank of india</option>
+                        <option value="karur">karur vysya</option>
+                        <option value="canara">Canara bank</option>
+                        <option value="icici">ICICI bank</option>
+                        <option value="city union">City union bank</option>
+                        <option value="other">other</option>
+                    </select>
+<form action="" method="post">   
+        <div>
+            <p>
+            <label for="name">Card Name:</label>
+            <input id="name" name="name" required value="" required  pattern="[A-Z-a-z]+\s[A-Z-a-z]+" aria-required="true" aria-describedby="name-format">
+            <span id="name-format" class="help"></span>
+            </p>
+        </div>
+        <div>
+            <p>
+            <label for="name">Name of card holder:</label>
+            <input id="name" name="name" required value="" required  pattern="[A-Z-a-z]+\s[A-Z-a-z]+" aria-required="true" aria-describedby="name-format">
+            <span id="name-format" class="help"></span>
+            </p>
+        </div>
+        <div>
+            <p>
+            <label for="number">CVV number:</label>
+            <input type="tel" pattern="^\d{4}-\d{3}-\d{4}$">
+            </p>
+        </div>
+        <div>
+            <p>
+            <label for="number">Card Number:</label>
+            <input type="tel" pattern="^\d{4}-\d{3}-\d{4}$" >
+            </p>
+        </div>
+    <div>
+        <p>
+            <label for="date">Date:</label>
+        <input type="text" pattern="\d{1,2}/\d{1,2}/\d{4}">
+        </p>
+    </div>
+        
+        <div class="submit">
+            <input type="submit" value="Submit">
+        </div>
+</form>
+                    </div>
+</center>
+    <center>
+    <p><a href="home.html"><button type="button"><b><i>GO TO HOME</i></b></button></a></p>
+</center>
+    </body>
+</html>
